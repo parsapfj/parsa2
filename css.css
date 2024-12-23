@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#part1{
+    width: 1519px;
+    height: 737px;
+    background-image: url(bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#taga{
+    text-decoration: none;
+    color: #567390;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#header{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+}
+
+#aside{
+    border-radius: 20px;
+    border-top: 5px solid green;
+    border-right: 5px solid white;
+    border-bottom:  5px solid red;
+    border-left: 5px solid white;
+    margin-left: 60px; 
+    margin-top: 30px;
+    height: 520px; 
+    width: 700px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    color: #363541;
+    font-size: 25px;
+    padding: 9px;
+}
+
+#aside p{
+    user-select: none;
+}
+
+#but:hover{
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    transition: 0.7s;
+}
+
+#part2{
+    background-image: url(tabriz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#accordionExample{
+    width: 700px;
+    margin: 30px;
+}
+
+.accordion-item{
+    margin-bottom: 50px;
+}
+
+nav{
+    width: 1517px;
+    height: 1100px;
+}
+
+#accordion{
+    width: 690px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#accbody1{
+    background-image: url(iran\ population.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#accbody2{
+    background-image: url(pezeshk.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#accbody3{
+    background-image: url(iran\ flag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#accbody4{
+    background-image: url(iran.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accp{
+    background: transparent;
+    backdrop-filter: blur(8px);
+    font-size: 23px;
+    padding: 9px;
+    color: black;
+}
+
+#lastpart{
+    background-color: green;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#lastpartimg{
+    width: 20%;
+    height: 500px;
+    align-items: center;
+}
+
+#lastpartetelat{
+    width: 20%;
+    margin-top: 5%;
+}
+
+#lastpartdasresi{
+    width: 20%;
+    margin-top: 5%;
+}
+
+#lastpartshabakeha{
+    width: 20%;
+    margin-top: 5%;
+}
+
+
+.lastpartatags{
+    font-family: vazir;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
